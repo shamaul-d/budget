@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <script src="d3-src/d3.min.js" charset="utf-8"></script>
+    <title>US Budget Facts</title>
+  
+    <style>
+     .chart div {
+       font: 10px sans-serif;
+       background-color: steelblue;
+       text-align: right;
+       padding: 3px;
+       margin: 1px;
+       color: white;
+     }
+    </style>
+    
+  </head>
+  
+  <body>
+
+    <h1> US Budget Comparisons </h1>
+
+    <h2> GDP Comparison (in trillions) </h2>
+    <div class="chart" id="gdp">
+    </div>
+
+    <h2> Revenue Comparison (in trillions) </h2>
+    <div class="chart" id="rev">
+    </div>
+
+    <h2> Debt Comparison (in trillions) </h2>
+    <div class="chart" id="debt">
+    </div>
+
+    <script src="budget.js"> </script>
+
+  </body>
